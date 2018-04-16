@@ -20,7 +20,7 @@ html, body, main {
 
 /* Start Quiz Styling */
 #start-quiz {
-  background: linear-gradient(rgba(2,2,2, .8),rgba(2,2,2, .6)), url(images/project-include.jpg) no-repeat 50% 50% fixed;
+  background: linear-gradient(rgba(2,2,2,.8),rgba(2,2,2,.8)), url(images/project-include.jpg) no-repeat 50% 50% fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,6 +81,7 @@ label {
 
 .submit-cta {
   background-color: #EE5C5C;
+  color: #1F1F1F;
 }
 
 ul {
@@ -120,6 +121,7 @@ h3 {
 
 .modal-header {
   padding-bottom: 20px;
+  color: #1F1F1F;
 }
 
 .close-modal {
