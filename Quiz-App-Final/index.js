@@ -9,7 +9,7 @@ let currentScore = 0;
 function buildTemplate(question){
   let questionString = "";
   question.questionOptions.forEach(currentQuestion => {
-    questionString += `<label><input type="radio" name="badass-woman" value= "${currentQuestion}"> ${currentQuestion} </label><<br>`;
+    questionString += `<label><input type="radio" name="badass-woman" value= "${currentQuestion}"> ${currentQuestion} </label><br>`;
   });
   return `<li>
             <form>
