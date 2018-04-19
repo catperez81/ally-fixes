@@ -53,7 +53,7 @@ const storeQuestions = {
         "Isis Wenger",
         "Allison Esposito"
       ],
-      correctAnswer: "Isis Wenger"
+      correctAnswer: 2
     },
     {
       questionText:
@@ -64,7 +64,7 @@ const storeQuestions = {
         "Mary Meeker",
         "Aileen Lee"
       ],
-      correctAnswer: "Shauntel Poulson"
+      correctAnswer: 1
     },
     {
       questionText:
@@ -75,7 +75,7 @@ const storeQuestions = {
         "Sonja Gittens-Ottley",
         "Cat Perez"
       ],
-      correctAnswer: "Laura Gomez"
+      correctAnswer: 0
     },
     {
       questionText:
@@ -86,7 +86,7 @@ const storeQuestions = {
         "Reshma Saujani",
         "Yvonne Hutchinson"
       ],
-      correctAnswer: "Reshma Saujani"
+      correctAnswer: 2
     },
     {
       questionText:
@@ -97,7 +97,7 @@ const storeQuestions = {
         "Sarah Nahm",
         "Carly Zakin"
       ],
-      correctAnswer: "Michelle Glauser"
+      correctAnswer: 0
     },
     {
       questionText:
@@ -108,7 +108,7 @@ const storeQuestions = {
         "Jess Lee",
         "Kathleen Utecht"
       ],
-      correctAnswer: "Kathleen Utecht"
+      correctAnswer: 3
     }
   ]
 };
