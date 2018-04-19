@@ -1,13 +1,15 @@
 /* Defaults for all elements */
 * {
-  font-family: 'Hind Vadodara', sans-serif;
+  font-family: "Hind Vadodara", sans-serif;
   line-height: 2em;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body, main {
+html,
+body,
+main {
   background-size: cover;
   height: 100%;
 }
@@ -17,10 +19,10 @@ html, body, main {
   padding: 0;
 }
 
-
 /* Start Quiz Styling */
 #start-quiz {
-  background: linear-gradient(rgba(2,2,2,.8),rgba(2,2,2,.8)), url(images/project-include.jpg) no-repeat 50% 50% fixed;
+  background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(2, 2, 2, 0.8)),
+    url(images/project-include.jpg) no-repeat 50% 50% fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,8 +33,10 @@ html, body, main {
   height: 100%;
 }
 
-.start-cta, .submit-cta, .take-quiz-cta {
-  padding: 20px 40px 20px 40px; 
+.start-cta,
+.submit-cta,
+.take-quiz-cta {
+  padding: 20px 40px 20px 40px;
   font-size: 120%;
   font-weight: bolder;
   border-radius: 3px;
@@ -41,22 +45,22 @@ html, body, main {
 }
 
 .start-cta {
-    background-color: #44D8EC;
-    margin-top: 30px;
+  background-color: #44d8ec;
+  margin-top: 30px;
 }
-
 
 /* Form Styling */
 label {
   margin-left: 10px;
-  color: #3B3434;
+  color: #3b3434;
   font-size: 20px;
   font-weight: 300;
   cursor: pointer;
   transition: all 0.25s linear;
 }
 
-.quiz-status, .quiz-score {
+.quiz-status,
+.quiz-score {
   width: 50%;
   display: inline-block;
   float: left;
@@ -74,14 +78,14 @@ label {
 
 #quiz-tracking {
   display: none;
-  background: #44D8EC;
+  background: #44d8ec;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
 .submit-cta {
-  background-color: #EE5C5C;
-  color: #1F1F1F;
+  background-color: #ee5c5c;
+  color: #1f1f1f;
 }
 
 ul {
@@ -90,7 +94,7 @@ ul {
 }
 
 input {
-  color: #3B3434;
+  color: #3b3434;
   font-size: 20px;
   position: relative;
 }
@@ -104,7 +108,6 @@ h1 {
   font-size: 50px;
 }
 
-
 h3 {
   font-size: 22px;
   line-height: 1.5em;
@@ -113,7 +116,6 @@ h3 {
   padding-top: 30px;
 }
 
-
 #myModal {
   margin: 300px;
   text-align: left;
@@ -121,7 +123,7 @@ h3 {
 
 .modal-header {
   padding-bottom: 20px;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 
 .close-modal {
@@ -129,10 +131,11 @@ h3 {
 }
 
 /* Results Styling */
-#good-results, #bad-results {
+#good-results,
+#bad-results {
   display: none;
   color: white;
-  background: #44D8EC;
+  background: #44d8ec;
   background-size: cover;
   text-align: center;
   padding-top: 100px;
@@ -156,9 +159,15 @@ h3 {
     margin: 10px;
     text-align: left;
   }
-  
+
   .modal-header {
     padding-bottom: 14px;
   }
 }
 
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
