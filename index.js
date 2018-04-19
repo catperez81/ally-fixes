@@ -13,8 +13,8 @@ function buildTemplate(question){
   });
   return `<li>
             <form>
-              <h3>${question.questionText}</h3>
-                <div aria-labelledby="question-answers">
+              <h3 id="question-text">${question.questionText}</h3>
+                <div aria-labelledby="question-text">
                   ${questionString}
                 </div>
               <button name="button" type="button" class="submit-cta">Submit</button>
