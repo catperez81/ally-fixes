@@ -14,7 +14,9 @@ function buildTemplate(question){
   return `<li>
             <form>
               <h3>${question.questionText}</h3>
-              ${questionString}
+                <div aria-labelledby=“question-answers”>
+                  ${questionString}
+                </div>
               <button name="button" type="button" class="submit-cta">Submit</button>
             </form>
           </li>`;
