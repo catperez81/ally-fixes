@@ -37,7 +37,7 @@ function checkAnswer() {
   if (checked == currentQuestion.correctAnswer) {
     keepScore();
   } else {
-    $(`#label-${checked}`).addClass("red");
+    $(`#label-${checked}`).addClass("red").text("Sorry-wrong badass woman!");;
 
     // TODO: SHOW THIS SOMEWHERE.
 
